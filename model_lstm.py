@@ -12,10 +12,16 @@ import wandb
 from wandb.keras import WandbCallback
 from keras.optimizers import Adam
 
-# Inicializar un nuevo experimento en Weights & Biases
-#wandb.init(project='LSTM training' )
 
-#wandbcallback = WandbCallback()
+#################################################################################################
+#################################################################################################
+## This script applies LSTM neural networks to predict urban air pollution levels using resampled weekly data. 
+## It employs a Bi-directional LSTM architecture optimized with Keras Tuner, processes data with MinMax scaling, and evaluates model performance using standard metrics.
+## Results are visualized and saved, providing insights into the effectiveness of the models across different pollution metrics and stations.
+#################################################################################################
+#################################################################################################
+
+
 # Cargar datos
 imputed_data = pd.read_csv('imputed_data.csv', parse_dates=['Date_time'], index_col='Date_time')
 

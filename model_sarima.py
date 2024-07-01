@@ -12,6 +12,15 @@ from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
+#################################################################################################
+#################################################################################################
+## This script performs SARIMAX time series analysis on urban air quality data from Barcelona.
+## It uses weekly resampled data from multiple monitoring stations and applies the best ARIMA model parameters to forecast air quality. 
+## The script evaluates the forecast accuracy using several metrics, visualizes predictions versus actual values, and stores the results in a CSV file for comprehensive analysis.
+#################################################################################################
+#################################################################################################
+
+
 arima_results = pd.read_csv('auto_arima_results.csv')
 #arima_results['Order'] = arima_results['Order'].apply(ast.literal_eval)
 
