@@ -1,2 +1,6 @@
-# TFG
-Air Quality 
+# Time Series Forecasting for Urban Air Quality in Barcelona
+
+This project focuses on the time series forecasting of urban air quality in Barcelona, utilizing data from the Air Quality Monitoring and Forecasting Network's automatic measurement stations.  An important element of this is that recorded measurements are often incomplete, which undermines time-series approaches.  The research targets key air pollutants, including Nitric Oxide (NO),  Nitrogen Dioxide (NO2), Nitrogen Oxide (NOX), Ozone (O3), and Particulate Matter less than or equal to 10 microns (PM10) to understand their temporal variability. Advanced time series analysis techniques, such as ARIMA, SARIMA, and LSTM neural networks, are applied to predict future pollution levels. By leveraging historical data, the study aims to develop robust spatio-temporal predictive models.  This work underscores the importance of predictive modeling in anticipating air quality fluctuations and mitigating health risks associated with air pollution.
+
+In each code file, you can see a brief explanation of the specific tasks and processes being executed, including data loading, preprocessing, analysis, and visualization techniques used to extract insights from the Barcelona air quality dataset.
+
